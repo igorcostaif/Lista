@@ -22,6 +22,23 @@ public class Principal {
 		
 		l.listarElementos();
 		
+		l.adicionarPorPosicao(3, 12);
+		
+		l.listarElementos();
+		
+		l.removerInicio();
+		
+		l.listarElementos();
+		
+		l.removerDoFim();
+		
+		l.listarElementos();
+		
+		l.removerPorPosicao(2);
+		
+		l.listarElementos();
 	}
+	
+	
 
 }
